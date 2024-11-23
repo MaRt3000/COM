@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import ContactHeader from './ContactHeader'
 
 const ContactSection = () => {
       const [formData, setFormData] = useState({
@@ -20,6 +21,7 @@ const ContactSection = () => {
 
   return (
     <div className="bg-white py-12 px-6  h-[750px] md:px-20 lg:px-40  mb-0">
+      <ContactHeader />
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-6" >
     
 

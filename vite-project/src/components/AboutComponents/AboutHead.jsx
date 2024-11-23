@@ -46,7 +46,7 @@ const AboutHead = () => {
               <Link to="/"  className="font-Jost text-white text-[21px] hover:underline">
                 Gallery
               </Link>
-              <Link to="#events" className="font-Jost text-white text-[21px] hover:underline">
+              <Link to="/ContactHeader" className="font-Jost text-white text-[21px] hover:underline">
                 Contact Us
               </Link>
     
