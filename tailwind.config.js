@@ -6,6 +6,11 @@ export default  {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      Jost: ['Jost', 'sans-serif'],
+      Poppins: ['Poppins', 'sans-serif'],
+
+    }
   },
   plugins: [],
 }
