@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import hero from '../assets/hero.jpeg'
 import hero2 from '../assets/hero2.jpeg'
 import hero3 from '../assets/hero3.jpeg'
+import Header from './Header'
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -38,8 +39,10 @@ const Carousel = () => {
             }   w-screen h-[600px] sm:h-[600px] lg:h-[900px]  bg-cover bg-[73%] sm:bg-73%] lg:bg-center`}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
+      <Header />
+
             <div className="bg-black  bg-opacity-50 w-full h-full flex items-center justify-start px-10 ">
-              <div className="text-center text-white mt-[130px] px-2 sm:px-2 sm:mt-[130px]   lg:mt-[20px] sm:text-center lg:px-8 lg:text-start">
+              <div className="text-center text-white mt-[60px] px-2 sm:px-2 sm:mt-[130px]   lg:mt-[20px] sm:text-center lg:px-8 lg:text-start">
                 <p className="text-[16.5px] sm:text-[16.5px] lg:text-[31px] ">{slide.label}</p>
                 <h2 className="text-[28.6px]  sm:text-[28.6px] py-[15px] sm:py-[15px] lg:py-[58px] lg:text-[49px] font-bold ">
                   {slide.title}

@@ -1,6 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Jost';
+  src: url(../Font/Jost-Regular.ttf);
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url(../fonts/Poppins-Light.ttf);
+}
 
 * {
   margin: 0;
