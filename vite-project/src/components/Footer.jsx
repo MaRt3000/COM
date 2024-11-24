@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -23,6 +24,9 @@ const Footer = () => {
 
 
   <div className="py-4 text-center">
+  <div className=" flex items-center text-white gap-6 justify-center pb-[40px] ">
+                        <FaFacebook /> <FaTwitter /> <FaInstagram /> <FaLinkedin />
+    </div>
     <p className="text-sm lg: text-base"> © 2023 COM. All Rights Reserved.
     </p>
 

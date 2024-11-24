@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ContactHeader from './ContactHeader'
 
 const ContactSection = () => {
       const [formData, setFormData] = useState({
@@ -21,7 +20,6 @@ const ContactSection = () => {
 
   return (
     <div className="bg-white py-12 px-6  h-[750px] md:px-20 lg:px-40  mb-0">
-      <ContactHeader />
       <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-6" >
     
 
@@ -62,7 +60,7 @@ const ContactSection = () => {
               Privacy Policy</a> . </label>
         </div>
 
-        <button type="submit" className="w-[800px]  h-[95px] bg-[#003255] text-white py-3 px-6 rounded-[5px] font-bold text-lg hover:bg-[#001F3D] transition duration-300" >
+        <button type="submit" className="lg:w-full w-full  h-[95px] bg-[#003255] text-white py-3 px-6 rounded-[5px] font-bold text-lg hover:bg-[#27629c] transition duration-300" >
           SEND MESSAGE
         </button>
       </form>

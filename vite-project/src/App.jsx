@@ -1,11 +1,10 @@
 import React from 'react'
 import AboutUs from './components/AboutComponents/AboutUs'
 import {Routes, Route} from 'react-router-dom'
-import ContactSection from './components/ContactSection'
 import './App.css'
-
+import GalleryAll from './components/GalleryComponents/GalleryAll'
 import { LandingPage } from './components/LandingPage'
-
+import ContactHeader from './components/ContactComponents/ContactAll'
 function App() {
   
 
@@ -14,7 +13,8 @@ function App() {
      <Route path='' element={<LandingPage />} />
      <Route path='/LandingPage' element={<LandingPage />} />
      <Route path='/AboutUs' element={<AboutUs />} />
-     <Route path='/ContactSection' element={<ContactSection />} />
+     <Route path='/GalleryAll' element={<GalleryAll />} />
+     <Route path='/ContactHeader' element={<ContactHeader />} />
 
     </Routes>
   )

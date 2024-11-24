@@ -20,7 +20,7 @@ const AboutTeam = () => {
     <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
     {[Team1, Team2, Team3, Team4, Team5, Team6].map((image, index) => (
       <div key={index} className="flex flex-col items-center">
-        <img src={image} alt={`img-${index + 1}`} className="w-full h-auto object-cover rounded-lg" />
+        <img src={image} alt={`img-${index + 1}`} className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform duration-300" />
         <h2 className=" w-full font-Jost font-[500] text-[18px] pt-6 ">{["Rev. Peller", "Snr. Evan. Pablo", "Sis. Arike PreOrder", "Sis. Slay Queen", "Pastor. Richi", "Pastor Pablo Monie"][index]}</h2>
         <h2 className=" w-full pb-10 font-Jost font-[500] text-[18px] ">{["Preacher", "Evangelist", "Head Usher", "Musician", "HypeMan", "Head Chorister"][index]}</h2>
       </div>

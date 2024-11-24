@@ -43,7 +43,7 @@ const AboutHead = () => {
                 About Us
                 <div className='w-2 h-2 bg-white rounded-full '></div>
               </Link>
-              <Link to="/"  className="font-Jost text-white text-[21px] hover:underline">
+              <Link to="/GalleryAll"  className="font-Jost text-white text-[21px] hover:underline">
                 Gallery
               </Link>
               <Link to="/ContactHeader" className="font-Jost text-white text-[21px] hover:underline">

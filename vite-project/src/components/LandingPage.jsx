@@ -6,6 +6,7 @@ import { BecomeAVolunteer } from './BecomeAVolunteer'
 import { Events } from './Events'
 import { OurServices } from './OurServices'
 import { Testimonies } from './Testimonies'
+import Footer from './Footer'
 {/*import { Header } from './Header'*/}
 
 
@@ -21,6 +22,7 @@ export const LandingPage = () => {
         <OurServices />
         <Events />
         <Testimonies />
+        <Footer />
     </div>
   )
 }

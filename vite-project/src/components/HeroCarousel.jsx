@@ -28,15 +28,15 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="  w-screen  max-w-screen-lg ">
+    <div className="  w-full ">
       {/* Slide Container */}
-      <div className="overflow-hidden w-screen ">
+      <div className="overflow-hidden ">
         {slides.map((slide, index) => (
           <div
             key={index}
             className={`${
               index === currentIndex ? "block" : "hidden"
-            }   w-screen h-[600px] sm:h-[600px] lg:h-[900px]  bg-cover bg-[73%] sm:bg-73%] lg:bg-center`}
+            }   w-full h-[600px] sm:h-[600px] lg:h-[900px]  bg-cover bg-[73%] sm:bg-73%] lg:bg-center`}
             style={{ backgroundImage: `url(${slide.image})` }}
           >
       <Header />
